@@ -7,6 +7,7 @@ public class Bse {
 
     private  String name ;
 
+
     public Bse(String name) {
         this.name = name;
     }
