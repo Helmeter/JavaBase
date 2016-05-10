@@ -32,9 +32,11 @@ public class Test0411 {
         hashmap.put("15",16);
 
         hashmap.put("17",18);
+       // System.out.println(hashmap);
         Iterator it  = hashmap.entrySet().iterator();
         while(it.hasNext()){
             Map.Entry entry = (Map.Entry) it.next();
+           // System.out.println(entry+"---------");
             System.out.println(entry.getValue());
         }
 
@@ -110,5 +112,11 @@ public class Test0411 {
 
 
 
+        Queue queue = new PriorityQueue();
+
+        queue.add(1);
+        queue.add(23);
+        queue.add(0);
+        System.out.println(queue);
     }
 }
