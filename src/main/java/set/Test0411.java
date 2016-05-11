@@ -117,6 +117,6 @@ public class Test0411 {
         queue.add(1);
         queue.add(23);
         queue.add(0);
-        System.out.println(queue);
+        System.out.println(Collections.binarySearch(list,11));
     }
 }
