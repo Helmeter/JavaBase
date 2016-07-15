@@ -34,8 +34,8 @@ public class StreamToken {
         try {
             fileReader = new FileReader(fileName);
             //创建分析给定字符流的标记生成器
-            StreamTokenizer st = new StreamTokenizer(new BufferedReader(
-                    fileReader));
+            StreamTokenizer st = new StreamTokenizer(
+                    fileReader);
 
             //ordinaryChar方法指定字符参数在此标记生成器中是“普通”字符。
             //下面指定单引号、双引号和注释符号是普通字符

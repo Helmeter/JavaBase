@@ -11,7 +11,7 @@ public class FileCopy {
      InputStream input=null;
      OutputStream out =null;
      try {  
-        input=new FileInputStream("img/1.png");
+        input=new FileInputStream("img/11.gif");
         out=new FileOutputStream("img/2.png"); //如果文件不存在会自动创建
          
         while ((numberRead=input.read(buffer))!=-1) {  //numberRead的目的在于防止最后一次读取的字节小于buffer长度，  
